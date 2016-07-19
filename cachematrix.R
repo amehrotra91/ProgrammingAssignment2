@@ -1,7 +1,6 @@
-a <- makeCacheMatrix( matrix(c(1,2,12,13), nrow = 2, ncol = 2) );
 ## functions do
 
-## Write a short comment describing this function
+## Function to set and get a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   cache <- NULL
@@ -30,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Function to solve cache issue
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
